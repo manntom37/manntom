@@ -1,0 +1,74 @@
+.introText {
+  /* height: 75vh; */
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 45vw;
+  margin: 3rem;
+  font-size: xx-large;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.heroText {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.heroP1 {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.heroP2 {
+  margin-bottom: 0;
+  margin-top: 3vh;
+  font-weight: normal;
+}
+
+.linkIcons {
+  transform: scale(2);
+  margin: 20px;
+  margin-right: 40px;
+  text-decoration: none !important;
+}
+
+.linkIcons:hover {
+  cursor: pointer;
+}
+
+.links {
+  /* margin: 50px; */
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  text-decoration: none;
+}
+
+.wholePage {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkNone {
+  text-decoration: none !important  ;
+  /* color: #a28ecf; */
+}
+
+.underlineNice {
+  background-image: linear-gradient(90deg, #f6ae2d, #f6ae2d);
+  background-position: bottom;
+  background-size: 95% 10%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+@media screen and (max-width: 830px) {
+  .wholePage {
+    flex-direction: column;
+  }
+
+  .introText {
+    width: 80vw;
+    margin-left: 2rem;
+  }
+}

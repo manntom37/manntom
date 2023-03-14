@@ -1,0 +1,36 @@
+.underlineNice {
+  background-image: linear-gradient(90deg, #f6ae2d, #f6ae2d);
+  background-position: bottom;
+  background-size: 95% 10%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.wholePage {
+  display: flex;
+  flex-direction: row;
+}
+.introTextRight {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 50vw;
+  margin: 3rem;
+  font-size: x-large;
+  flex-direction: column;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 830px) {
+  .wholePage {
+    flex-direction: column;
+  }
+
+  .introTextRight {
+    width: 80vw;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+}
