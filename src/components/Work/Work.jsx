@@ -44,9 +44,19 @@ const Work = () => {
           I mostly work on{" "}
           <span className="underlineNice">educational projects</span> at
           Telesgop, such as{" "}
-          <span className="underlineNice">Our Welsh History</span>, a project
-          focusing on the history of Black, Asian, and Minority Ethnicities in
-          Wales.
+          <span className="underlineNice">
+            <a
+              href="https://dev.addysgop.co.uk/hanesbame/"
+              style={{
+                color: darkMode ? "#a28ecf" : "#7d6b9f",
+                textDecoration: "none",
+              }}
+            >
+              Our Welsh History
+            </a>
+          </span>
+          , a work-in-progress project focusing on the history of Black, Asian,
+          and Minority Ethnicities in Wales.
         </p>
         <p className="heroP2">
           As these sites are primarily used in schools, working with regards to

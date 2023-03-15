@@ -2,6 +2,7 @@ import React from "react";
 import "./Education.css";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 const Education = () => {
   const theme = useContext(themeContext);
@@ -52,7 +53,18 @@ const Education = () => {
           using React Native, where users could log in, find gigs using a map
           API, as well as post gigs. For this project, I focused on front end
           development, and the app can be seen{" "}
-          <span className="underlineNice">here</span>.
+          <span className="underlineNice">
+            <a
+              style={{
+                color: darkMode ? "#a28ecf" : "#7d6b9f",
+              }}
+              className="noTextDec"
+              href="https://northcoders.com/projects/march-2022/herd"
+            >
+              here
+            </a>
+          </span>
+          .
         </p>
       </div>
     </div>

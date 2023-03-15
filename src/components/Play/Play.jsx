@@ -50,10 +50,6 @@ const Play = () => {
           <span className="underlineNice">gaming</span> for this project so far,
           and I'm excited to see how it develops!
         </p>
-        <p className="heroP2">
-          Here's a spooky face I made in{" "}
-          <span className="underlineNice">Blender</span>.
-        </p>
       </div>
     </div>
   );
